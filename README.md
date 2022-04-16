@@ -8,17 +8,17 @@ Integrated the services with another service i.e Service discovery with Eureka t
 - Java 
 - Spring boot
 
+# Microservices created:
+- Service 1 - Movie Catalogue Service
+-   Input: User ID
+-   Output : Movie List with details
 
-- Service 1: Movie Catalogue Service
-- Input: User ID
-- Output : Movie List with details
+- Service 2 - Movie Info Service
+-   Input : Movie ID
+-   Output: Movie Details
 
-- Service 2: Movie Info Service
-- Input : Movie ID
-- Output: Movie Details
-
-- Service 3: Ratings Data Service
-- Input: User ID
-- Output: Movie Ids and ratings
+- Service 3 - Ratings Data Service
+-   Input: User ID
+-   Output: Movie Ids and ratings
 
 - Discovery Server
